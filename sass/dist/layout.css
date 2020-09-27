@@ -1,0 +1,15 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--grey-light2);
+}
+
+.header {
+  min-height: 7rem;
+  background-color: #fff;
+  display: flex;
+}
+
+.sub-container {
+  display: flex;
+}

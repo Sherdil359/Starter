@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary: #eb2f64;
+    --primary-light: #FF3366;
+    --primary-dark: #BA265D;
+
+    --grey-light: #faf959;
+    --grey-light2: #f4f2f2;
+    --grey-light3: #f0eeee;
+    --grey-light4: #ccc;
+
+    --grey-light:#333;
+    --dark-2: #777;
+    --dark-3: #999;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-family:'open sans' sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, var(--primary), var(--primary-dark));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
